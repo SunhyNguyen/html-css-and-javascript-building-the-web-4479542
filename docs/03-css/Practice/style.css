@@ -8,3 +8,11 @@ h1 {
   color: #3a241d;
   text-align: center;
 }
+
+#left-container {
+  left: 0px;
+}
+
+#right-container {
+  right: 0px;
+}
