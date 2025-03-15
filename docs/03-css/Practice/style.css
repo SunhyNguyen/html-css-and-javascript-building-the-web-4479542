@@ -110,3 +110,28 @@ h1:hover {
   left: 5%;
 }
 
+/* Define the animation */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.plant {
+  animation: slide-in 1s ease-in-out;
+}
+
+.plant {
+  transition: width 2s, height 2s, background-color 1s;
+}
+
+.plant:hover {
+  width: 200px;
+  height: 200px;
+  background-color: goldenrod;
+}
+
+/* End styling */
